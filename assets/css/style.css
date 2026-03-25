@@ -287,6 +287,11 @@ h4 { font-size: .9rem; font-weight: 600; letter-spacing: .04em; text-transform: 
   font-weight: 500;
   color: rgba(255,255,255,.9);
 }
+.badge-icon {
+  color: var(--color-accent-lt);
+  font-style: normal;
+  font-weight: 700;
+}
 
 .hero-scroll-hint {
   position: absolute;
