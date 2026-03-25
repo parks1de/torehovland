@@ -562,6 +562,36 @@ h4 { font-size: .9rem; font-weight: 600; letter-spacing: .04em; text-transform: 
 .om-content h2 { margin-bottom: 1.25rem; }
 .om-content p  { color: var(--color-text-muted); margin-bottom: 1rem; font-size: .97rem; }
 
+.om-quote {
+  border-left: 3px solid var(--color-accent);
+  padding: .75rem 1.25rem;
+  margin: 1.5rem 0;
+  background: rgba(196,146,42,.06);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.om-quote p {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--color-primary) !important;
+  font-style: italic;
+  margin: 0 !important;
+}
+
+.om-photo-wrap {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 1rem;
+}
+.om-photo-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.om-photo-wrap--secondary {
+  margin-bottom: 0;
+}
+
 .om-values {
   display: flex;
   flex-wrap: wrap;
