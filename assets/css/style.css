@@ -862,6 +862,9 @@ img[src*="badge-laerling"] { display: none; }
 
   .kvifor-layout  { grid-template-columns: 1fr; }
   .kvifor-image   { aspect-ratio: 16/9; max-height: 340px; }
+  .kvifor-image img { object-position: 42% 20%; }
+  .kvifor-image-badge { bottom: auto; top: 1rem; left: auto; right: 1rem; padding: .5rem .9rem; }
+  .kvifor-image-badge strong { font-size: 1.3rem; }
 
   .om-layout { grid-template-columns: 1fr; }
 
