@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#C8E6F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="url(#sky)"/>
+  <!-- Ground -->
+  <rect x="0" y="380" width="900" height="120" fill="#7A8C5A"/>
+  <!-- House body -->
+  <rect x="200" y="220" width="500" height="180" fill="#E8E0D4"/>
+  <!-- Roof -->
+  <polygon points="180,220 450,80 720,220" fill="#5C4A30"/>
+  <!-- Chimney -->
+  <rect x="550" y="90" width="40" height="80" fill="#6B5232"/>
+  <!-- Door -->
+  <rect x="390" y="310" width="70" height="90" rx="4" fill="#8B6914"/>
+  <circle cx="450" cy="360" r="5" fill="#C4922A"/>
+  <!-- Windows -->
+  <rect x="240" y="260" width="80" height="70" rx="3" fill="#B8D4E8"/>
+  <rect x="248" y="268" width="30" height="54" fill="white" opacity="0.3"/>
+  <rect x="580" y="260" width="80" height="70" rx="3" fill="#B8D4E8"/>
+  <rect x="588" y="268" width="30" height="54" fill="white" opacity="0.3"/>
+  <!-- Trees -->
+  <g fill="#4A6A3A">
+    <polygon points="100,380 140,270 180,380"/>
+    <polygon points="720,380 760,270 800,380"/>
+  </g>
+  <!-- Mountains bg -->
+  <polygon points="0,300 150,180 300,300" fill="#8BA89A" opacity="0.3"/>
+  <polygon points="600,300 750,160 900,300" fill="#8BA89A" opacity="0.3"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#122840"/>
+      <stop offset="100%" stop-color="#1B3A52"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <!-- Mountains silhouette -->
+  <polygon points="0,700 200,450 400,600 600,380 800,520 1000,350 1200,500 1400,420 1600,560 1600,900 0,900" fill="#0D2235" opacity="0.8"/>
+  <polygon points="0,900 300,580 500,700 700,500 900,650 1100,480 1300,620 1600,520 1600,900" fill="#091A28" opacity="0.6"/>
+  <!-- Trees -->
+  <g fill="#0A1E2E" opacity="0.7">
+    <polygon points="80,700 95,640 110,700"/>
+    <polygon points="110,700 120,655 130,700"/>
+    <polygon points="1480,680 1500,610 1520,680"/>
+    <polygon points="1510,680 1525,645 1540,680"/>
+  </g>
+  <!-- Stars -->
+  <g fill="white" opacity="0.3">
+    <circle cx="200" cy="100" r="1.5"/>
+    <circle cx="400" cy="60" r="1"/>
+    <circle cx="700" cy="80" r="1.5"/>
+    <circle cx="1000" cy="50" r="1"/>
+    <circle cx="1300" cy="90" r="1.5"/>
+    <circle cx="1500" cy="70" r="1"/>
+  </g>
+</svg>

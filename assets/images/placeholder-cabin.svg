@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B8D4E8"/>
+      <stop offset="100%" stop-color="#D8EAF4"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="url(#sky)"/>
+  <!-- Mountains -->
+  <polygon points="0,400 200,200 400,380 600,160 800,320 900,280 900,500 0,500" fill="#6B8A7A" opacity="0.6"/>
+  <polygon points="0,500 150,300 300,430 500,250 700,380 900,320 900,500" fill="#4A6A5A" opacity="0.5"/>
+  <!-- Ground/snow -->
+  <ellipse cx="450" cy="500" rx="500" ry="60" fill="#8BA870"/>
+  <!-- Cabin body -->
+  <rect x="270" y="270" width="360" height="180" fill="#8B6914"/>
+  <!-- Log texture lines -->
+  <g stroke="#6B5010" stroke-width="2" opacity="0.5">
+    <line x1="270" y1="295" x2="630" y2="295"/>
+    <line x1="270" y1="320" x2="630" y2="320"/>
+    <line x1="270" y1="345" x2="630" y2="345"/>
+    <line x1="270" y1="370" x2="630" y2="370"/>
+    <line x1="270" y1="395" x2="630" y2="395"/>
+    <line x1="270" y1="420" x2="630" y2="420"/>
+  </g>
+  <!-- Roof -->
+  <polygon points="250,270 450,140 650,270" fill="#3D2E1A"/>
+  <!-- Chimney + smoke -->
+  <rect x="530" y="150" width="35" height="75" fill="#4A3A20"/>
+  <ellipse cx="547" cy="145" rx="8" ry="12" fill="#CCCCCC" opacity="0.5"/>
+  <ellipse cx="542" cy="128" rx="6" ry="10" fill="#CCCCCC" opacity="0.35"/>
+  <!-- Door -->
+  <rect x="400" y="360" width="60" height="90" rx="3" fill="#3D2E1A"/>
+  <!-- Windows -->
+  <rect x="305" y="305" width="65" height="55" rx="3" fill="#C8E0F0"/>
+  <rect x="530" y="305" width="65" height="55" rx="3" fill="#C8E0F0"/>
+  <!-- Conifer trees -->
+  <g fill="#2A5A3A">
+    <polygon points="100,450 135,320 170,450"/>
+    <polygon points="140,450 170,345 200,450"/>
+    <polygon points="700,450 735,320 770,450"/>
+    <polygon points="740,450 770,345 800,450"/>
+  </g>
+</svg>
